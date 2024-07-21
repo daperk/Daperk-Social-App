@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register{
+height: 100vh;
+background-color:  #ffdab9;
+display: flex;
+align-items: center;
+justify-content: center;
+    .card{
+display: flex;
+flex-direction: row-reverse;
+background-color: white;
+width: 50%;
+height: 600px;
+border-radius: 10px;
+overflow: hidden;
+        .left{
+            flex: 1;
+            background: linear-gradient(#b8825377, #b8825377), url("https://images.pexels.com/photos/2463079/pexels-photo-2463079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+            h1{
+                font-size: 100px;
+                line: height 100px; 
+            }
+            p{
+                font-size: 20px;
+            }
+            span{
+                font-size: 15px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                background-color: white;
+                color: orange;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            h1{
+                color: #ffc99b;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    color: white;
+                    background-color: orange;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
